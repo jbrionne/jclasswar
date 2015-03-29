@@ -1,0 +1,17 @@
+<configuration>
+
+	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>%d [%thread] %level %logger - %m%n</Pattern>
+		</encoder>
+	</appender>
+
+	<root level="ERROR">
+	</root>
+
+	<logger name="fr" level="DEBUG">
+		<appender-ref ref="CONSOLE" />
+	</logger>
+
+
+</configuration>
