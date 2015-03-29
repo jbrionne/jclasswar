@@ -1,2 +1,2 @@
 # jclasswar
-Natural selection of java class ^^
+Natural selection between java classes
