@@ -25,7 +25,7 @@ public class EnvironmentRandom extends Environment {
 		super();
 	}
 
-	public void init() {
+	public void run() {
 
 		PrepareQualifTestCustomOnString q = new PrepareQualifTestCustomOnString();
 
@@ -61,7 +61,7 @@ public class EnvironmentRandom extends Environment {
 	}
 
 	private List<Object> compilationObject(PrepareQualif q) {
-		List<Object> lstInstances = new ArrayList<Object>();
+		List<Object> lstInstances = new ArrayList<>();
 		for (int i = 0; i < 10; i++) {
 			String shortName = "Entity" + Address.getNewIdentifiant();
 			try {

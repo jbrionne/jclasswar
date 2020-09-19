@@ -8,7 +8,7 @@ public class AppEnvironmentRandom {
 	
 	public static void main(String[] args) throws Exception {
 		EnvironmentRandom e = new EnvironmentRandom();
-		e.init();
+		e.run();
 	}
 
 }
